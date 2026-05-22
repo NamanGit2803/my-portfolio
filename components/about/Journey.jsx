@@ -40,7 +40,7 @@ const skillGroups = [
     {
         label: "Frontend",
         color: "#61DAFB",
-        skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "GSAP", "Framer Motion"],
+        skills: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS", "GSAP", "Framer Motion", "Shadcn Ui", "Material Ui"],
     },
     {
         label: "Backend",
@@ -55,7 +55,7 @@ const skillGroups = [
     {
         label: "Tools & DevOps",
         color: "#B794F4",
-        skills: ["Git", "GitHub", "Vercel", "VS Code",],
+        skills: ["Git", "GitHub", "Vercel", "VS Code", "Cloudinary"],
     },
 ];
 

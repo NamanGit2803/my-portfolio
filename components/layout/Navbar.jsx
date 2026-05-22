@@ -8,9 +8,9 @@ import { ChevronRight, Menu } from 'lucide-react';
 import Magnetic from "../Magnetic";
 
 const links = [
-    { label: "Work", href: "#work" },
+    { label: "Projects", href: "#project" },
     { label: "About", href: "#about" },
-    { label: "Services", href: "#services" },
+    { label: "Services", href: "#service" },
     { label: "Contact", href: "#contact" },
 ];
 
@@ -62,7 +62,7 @@ export default function Navbar() {
                 >
                     {/* Logo */}
                     <Link href="/" className="logo flex gap-1.5 items-center w-[10%] xs:w-[40%]">
-                        <div className='sm:w-[30px] xs:w-[28px] h-[20px] bg-linear-to-bl from-slate-50 via-slate-100 to-slate-50 rounded-[1px]'>
+                        <div className='sm:w-7.5 xs:w-7 h-5 bg-linear-to-bl from-slate-50 via-slate-100 to-slate-50 rounded-[1px]'>
                             <ChevronRight className='text-black w-[1.3rem]' />
                         </div>
                         <p className="text-2xl tracking-wider">NJ</p>
